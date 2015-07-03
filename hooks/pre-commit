@@ -1,0 +1,3 @@
+#!/bin/sh
+
+git branch | grep '* master' && echo "Please, don't commit on master" && exit 1
