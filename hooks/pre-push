@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# always test before pushing any code
+make test
